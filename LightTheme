@@ -1,0 +1,70 @@
+# Theme based on Google app light theme
+# Creator: DaneDevOps
+# Website:
+
+  # Header:
+  app-header-background-color: "#ebebeb"
+  app-header-text-color: "#424242"
+  # Main Interface Colors
+  primary-color: "ff8000"
+  light-primary-color: var(--primary-color)
+  primary-background-color: "#ebebeb"
+  secondary-background-color: "#ebebeb"
+  divider-color: var(--primary-background-color)
+  # Text
+  primary-text-color: "#424242"
+  secondary-text-color: "#424242"
+  text-primary-color: "#ff8000"
+  disabled-text-color: "#717171"
+  # Sidebar Menu
+  sidebar-icon-color: var(--app-header-text-color)
+  sidebar-text-color: "#424242"
+  sidebar-background-color: "#ebebeb"
+  sidebar-selected-background-color: "#ebebeb"
+  sidebar-selected-icon-color: "#ff8000"
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # States and Badges
+  state-icon-color: "#5F6267"
+  state-icon-active-color: "#ff8000"
+  state-icon-unavailable-color: var(--disabled-text-color)
+  # Sliders
+  paper-slider-knob-color: "#ff8000"
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels
+  label-badge-background-color: "#F8FAF9"
+  label-badge-text-color: "#424242"
+  label-badge-red: "#C7484C"
+  label-badge-green: "#6DC071"
+  label-badge-blue: "#5f9bea"
+  label-badge-yellow: "#D9B757"
+  label-badge-gray: "#5F6267"
+  # Cards
+  card-background-color: "#ebebeb"
+  ha-card-border-radius: "10px"
+  # https://neumorphism.io/#ebebeb
+  ha-card-box-shadow: "inset 7px 7px 8px #b7b7b7, inset -7px -7px 8px #ffffff"
+  paper-dialog-background-color: var(--card-background-color)
+  paper-listbox-background-color: var(--card-background-color)
+  # Switches
+  switch-checked-button-color: "#ff8000"
+  switch-checked-track-color: "#888b91"
+  switch-unchecked-button-color: "#5F6267"
+  switch-unchecked-track-color: "#888b91"
+  # Toggles
+  paper-toggle-button-checked-button-color: var(--switch-checked-button-color)
+  paper-toggle-button-checked-bar-color: var(--switch-checked-track-color)
+  paper-toggle-button-unchecked-button-color: var(--switch-unchecked-button-color)
+  paper-toggle-button-unchecked-bar-color: var(--switch-unchecked-track-color)
+  # Table
+  table-row-background-color: var(--primary-background-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  data-table-background-color: var(--primary-background-color)
+  # Dropdowns
+  material-background-color: var(--paper-card-background-color)
+  material-secondary-background-color: var(--primary-background-color)
+  mdc-theme-surface: var(--paper-card-background-color)
+  # HACS
+  hacs-chip-background-color: var(--primary-color)
